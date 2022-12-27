@@ -11,20 +11,26 @@
         }
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;/*faz com que as linhas de separaçao das td se unam*/
             /*border: 5px solid red;*/
         }
+        /*
         tr.linha {
             background-color: gray;
-        }
+        }*/
         td {
             border: 1px solid black;
             padding: 8px;
-        }
+            text-align: center;/* Alinhamento horizontal*/
+            vertical-align: middle;/* alinhamento vertical*/
+        }/*
         td.dado {
             background-color: yellow;
+        }*/
+        .numero {
+            text-align: right;
         }
-
     </style>
 </head>
 <body>
@@ -45,25 +51,19 @@
         <tr class="linha"><!--Segunda linha-->
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr><!--terceira linha-->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr><!--quarta linha-->
             <td>A4</td>
-            <td class="dado">B4</td>
+            <td>B4</td>
             <td>C4</td>
         </tr>
-        <tr>
-            <td>A5</td>
-            <td>B5</td>
-        </tr>
-        <tr>
-            <td>A6</td>
-        </tr>
+        
     </table>
 </body>
 </html>
