@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #fff;
+
+}
+
+#geral {
+    width: 960px;
+    margin:0 auto;
+    background: #ddd;
+}
+
+#cabecalho {
+    padding: 10px;
+    background: #fdd;
+}
+
+#conteudo-1 {
+    float: left;
+    width: 210px;
+    background: #bfb;
+}
+
+#conteudo-2 {
+    float: right;
+    width: 720px;
+    background: #bfa;
+}
+
+#conteudo-2-1 {
+    float: left;
+    width: 480px;
+    padding: 10px;
+    background: #ddf;
+}
+
+#conteudo-2-2 {
+    float: right;
+    width: 200px;
+    background: #dff;
+}
+
+#rodape {
+    clear: both;
+    padding: 10px;
+    background: #ff9;
+}
